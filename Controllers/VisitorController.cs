@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using VisitorManagement.Data;
 using VisitorManagement.DataModels;
-using VisitorManagement.DTO;
+using VisitorManagement.DTO.Response;
 
 [Route("api/[controller]")]
 [ApiController]

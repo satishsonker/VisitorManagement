@@ -1,4 +1,4 @@
-﻿namespace VisitorManagement.DTO
+﻿namespace VisitorManagement.DTO.Response
 {
     public class PagingResponse<T> where T : class
     {

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VisitorManagement.Data;
 
@@ -11,9 +12,10 @@ using VisitorManagement.Data;
 namespace VisitorManagement.Migrations
 {
     [DbContext(typeof(VisitorManagementDbContext))]
-    partial class VisitorManagementDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241111053329_Add_UpdateBooking")]
+    partial class Add_UpdateBooking
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
